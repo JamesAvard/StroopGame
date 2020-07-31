@@ -1,0 +1,145 @@
+#myCanvas{
+  margin: auto;
+  display: block;
+  background-color: white; 
+  border:black 3px solid;
+}
+
+#game1:hover{	
+	cursor: pointer;
+	background-image:none;
+	color:#3E6E8A;
+	Transition: color 1.2s linear;
+}
+#game2:hover{	
+	cursor: pointer;
+	background-image:none;
+	color:#3E6E8A;	
+	Transition: color 1.2s linear;	
+}
+#game3:hover{	
+	cursor: pointer;
+	background-image:none;
+	color:#3E6E8A;	
+	Transition: color 1.2s linear;
+}
+#game4:hover{	
+	cursor: pointer;
+	background-image:none;
+	color:#3E6E8A;	
+	Transition: color 1.2s linear;
+}
+#backButton:hover{
+	background-color:#803E8A;
+	border-color: #803E8A;
+	Transition: background-color 0.3s linear 0s;
+	cursor: pointer;
+}
+#backButton{
+	font-size: 16px;
+	border-radius: 25px;
+	background-color: #8A3E6E;
+	color: white;
+	border: 2px solid #8A3E6E;
+	width:120px;
+	height:45px;
+	position:relative;
+	top:16px;
+	float: right;
+	margin-right: 10;
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+body {
+  margin: 0;
+  min-width:920px;
+  font-family: "veranda", sans-serif;
+}
+#header{
+	width:100%;
+	height:80px;
+	background-color: #3E6E8A;
+	box-shadow: 0px 5px 20px #999999;
+	font-family: "veranda", sans-serif;
+}
+#game1{
+	font-size: 16px;
+	border-radius: 25px;
+	background-color:white;
+	background-image: url("images/number.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:200px;
+	color: transparent;
+	border: 2px solid #3E6E8A;
+	width:250px;
+	height:250px;
+	top:16px;
+	margin:10;
+}
+#game2{
+	font-size: 16px;
+	border-radius: 25px;
+	background-color:white;
+	background-image: url("images/color.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:200px;
+	color: transparent;
+	border: 2px solid #3E6E8A;
+	width:250px;
+	height:250px;
+	top:16px;
+	margin:10;
+}
+#game3{
+	font-size: 16px;
+	border-radius: 25px;
+	background-color:white;
+	background-image: url("images/simon.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:200px;
+	color: transparent;
+	border: 2px solid #3E6E8A;
+	width:250px;
+	height:250px;
+	top:16px;
+	margin:10;
+}
+
+#logo{
+	float:left;
+	color:white;
+	height:70px;
+	position: relative;
+	top:5px;
+	left:10px;
+	font-size: 60px;
+	text-align:center;
+
+}
+#content{
+	width:100%;
+	padding-top:50px;
+	font-family: "veranda", sans-serif;
+	text-align:center;	
+}
+#oGames{
+	margin: 0 auto;
+	width:90%;
+	padding-top:120px;
+	padding-bottom:120px;
+	
+	
+}
+#footer{
+	width:100%;
+	height:100px;
+	background-color:#E1E6E9;
+	text-align:center;
+	padding-top: 20px;	
+	box-shadow: 0px 5px 20px #B5B5B5 inset;	
+}
